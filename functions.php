@@ -631,6 +631,7 @@ function removeHTMLtags($text)
 }
 
 function texto_limite($title,$maximo) {
+	$continua = '';
 	if ( strlen($title) > $maximo ) {
 		$continua = '...';
 	}
